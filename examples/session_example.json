@@ -1,0 +1,58 @@
+{
+  "session_id": "sess_001",
+  "submit_ts_ms": 1710000130000,
+  "strokes": [
+    {
+      "stroke_id": "s_001",
+      "page_id": "page_1",
+      "canvas_id": "canvas_A",
+      "points": [
+        {"point_id": "p_1", "stroke_id": "s_001", "x": 100, "y": 100, "ts_ms": 1710000123000},
+        {"point_id": "p_2", "stroke_id": "s_001", "x": 120, "y": 110, "ts_ms": 1710000123500}
+      ],
+      "start_ts_ms": 1710000123000,
+      "end_ts_ms": 1710000124200,
+      "bbox": {"x": 100, "y": 90, "w": 30, "h": 30}
+    },
+    {
+      "stroke_id": "s_002",
+      "page_id": "page_1",
+      "canvas_id": "canvas_A",
+      "points": [
+        {"point_id": "p_3", "stroke_id": "s_002", "x": 135, "y": 115, "ts_ms": 1710000124300}
+      ],
+      "start_ts_ms": 1710000124300,
+      "end_ts_ms": 1710000125200,
+      "bbox": {"x": 130, "y": 105, "w": 20, "h": 20}
+    },
+    {
+      "stroke_id": "s_003",
+      "page_id": "page_2",
+      "canvas_id": "canvas_A",
+      "points": [
+        {"point_id": "p_4", "stroke_id": "s_003", "x": 300, "y": 200, "ts_ms": 1710000126000}
+      ],
+      "start_ts_ms": 1710000126000,
+      "end_ts_ms": 1710000127000,
+      "bbox": {"x": 295, "y": 195, "w": 20, "h": 20}
+    }
+  ],
+  "erase_events": [
+    {
+      "erase_id": "e_001",
+      "page_id": "page_2",
+      "ts_ms": 1710000128000,
+      "affected_stroke_ids": ["s_003"]
+    }
+  ],
+  "transcript_segments": [
+    {
+      "transcript_seg_id": "t_001",
+      "start_ts_ms": 1710000122500,
+      "end_ts_ms": 1710000125000,
+      "start_offset_ms": 2500,
+      "end_offset_ms": 5000,
+      "text": "这里画一个三角形"
+    }
+  ]
+}
